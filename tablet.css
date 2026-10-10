@@ -1,0 +1,187 @@
+/* CSS */
+@charset "UTF-8";
+*{
+    box-sizing: border-box;
+}
+/* General body font for the background */
+body{
+    background-color:#F2E9D8;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+}
+   
+/* Header section that applies to all pages*/
+header{
+    background-color:#D9A577;
+    color:black;
+    margin: 0;
+    padding: 12px;
+    height: auto;
+    min-height: 130px;
+    text-align: center;
+    font-size: 22px;
+
+/* Chosen Font for top header */
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* Line height to bring the two lines closer together */
+nav{
+    line-height: 0.5;
+}
+
+/* For text in navigation bar*/
+header nav a{
+color: black;
+text-align: center;
+
+font-size: 20px;
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-weight:400;
+font-style: normal;
+}
+
+/* For right column on homepage*/
+#right-column-homepage
+{
+width: 50%;
+height: auto;
+background-color:#F2E9D8;
+min-height: 400px;
+
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-weight:400;
+font-style: normal;
+font-size: 22px;
+}
+
+/* For right column h2 within homepage*/
+#right-column h2{
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 10px;}
+
+/* For right column within about me section */
+#right-column-aboutme{
+width: 100%;
+height: auto;
+min-height: 400px;
+
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-weight:400;
+font-size: 16px;
+font-style: normal;
+}
+
+/*For left-column on homepage*/
+#left-column{
+float: left;
+width: 50%;
+background-color:#F2E9D8;
+height:auto;
+min-height: 400px;
+margin: 0px;
+padding: 0px;
+}
+
+/*For image on homepage*/
+figure img{
+float: left;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin-left: 0%;
+}
+
+/* To clear out all right and left columns before the footer */
+.clear
+{
+clear: both;
+}
+
+/* Footer section that applies to all pages */
+#footer
+{
+background-color: #D9A577;
+height:auto;
+min-height: 40px;
+margin: 5px;
+padding: 10px;
+text-align: center;
+
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-weight:400;
+font-size: 16px;
+}
+
+
+
+video{
+width: 500px;
+height: auto;
+}
+
+/*Box layout on projects page*/
+.box{
+background-color: #D9A577;
+width: 47%;
+height: 350px; 
+float: left;
+padding: 5px;
+
+
+text-align: center;
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-weight:400;
+font-style: normal;
+font-size: 16px;
+border:5px solid hsl(28, 47%, 37%);
+}
+
+/* Used to add linear gradient to project page */
+#projectpage{
+min-height: 700px;
+background:linear-gradient(to bottom, #F2E1BD 0%, #D9B8AC 50%, #A65A58 100%);
+}
+
+/* Used to add angled gradient to project page */
+.contactpage{
+min-height: 500px;
+background:linear-gradient(45deg, #F2E1BD 0%, #D9B8AC 50%, #A65A58 100%);
+text-align: center;
+
+font-family: "Aleo", serif;
+font-optical-sizing: auto;
+font-size: 18px;
+font-weight:400;
+}
+/* This is for the heading part of each box */
+.box h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+
+}
+
+/* This is for the text part of each box */
+.box p{
+    padding-left: 15px; 
+    padding-right: 15px;
+
+}
+
+/* Box background in projects page changes colour when someone hovers over it */
+.box:hover{
+background-color:#F2E1BD;
+border-color:#8C5C32;
+}
+

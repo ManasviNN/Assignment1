@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 480px)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 601px) and (max-width: 961px)">
+    <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 961px)">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Parisienne&family=Ribeye&display=swap" rel="stylesheet">
+</head>
+
+    <body class="contactpage">
+         <header>
+            <h1>Manasvi's Portfolio</h1>
+            <nav>
+               
+                    <a href="homepage.html" class="active">Home</a>
+                    <a href="blog.html">About Me</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact Me</a>           
+                
+            </nav>
+        </header>
+
+            <form 
+            action="mailto:manasvi.naik@ontariotechu.net"
+            method="post" 
+            enctype="text/plain" 
+            name="contant_form">
+            <h1>Contact Us</h1>
+                <p>
+                    <label for="first_name">First Name:</label><br>
+                    <input type = "text" id="first_name" size="32" required>
+                </p>
+                <p>
+                    <label for="last_name">Last Name:</label><br>
+                    <input type = "text" id="last_name" size="32" required>
+                </p>
+                  <p>
+                    <label for="email">Email:</label><br>
+                    <input type = "email" id="email" size="32" required>
+                </p>
+                <!--Double Check this Section-->
+                <p>
+                    <label for="number">Phone Number:</label><br>
+                    <input type = "tel" id="number" size="32">
+                </p>
+                  <p>
+                    <label for="message">Message:</label><br>
+                    <textarea name = "message" cols="60" rows="6"></textarea> 
+                </p>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+
+    
+           
+
+    <div id="footer">
+        <h5>© Manasvi Naik - manasvi.naik@ontariotechu.net</h5>
+    </div>
+    </body>
+</html>
