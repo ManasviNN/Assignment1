@@ -44,49 +44,55 @@ font-style: normal;
 }
 
 /* For right column on homepage*/
-#right-column
+#right-column-homepage
 {
-float: right;
-width: 50%;
-height: 500px;
+float: none;
+width: 100%;
+height: auto;
+min-height: 0;
 background-color:#F2E9D8;
+padding: 10px;
 
 font-family: "Aleo", serif;
 font-optical-sizing: auto;
 font-weight:400;
 font-style: normal;
-font-size: 30px;
+font-size: 22px;
 }
 
 /* For right column h2 within homepage*/
-#right-column h2{
+#right-column-homepage h2{
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 70px;
+    font-size: 50px;
     margin-bottom: 10px;}
 
 /* For right column within about me section */
 #right-column-aboutme{
-float: right;
-width: 40%;
-height: 500px;
+float: none;
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
 
-font-family: "Aleo", serif;
-font-optical-sizing: auto;
-font-weight:400;
-font-size: 20px;
-font-style: normal;
+    font-family: "Aleo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
 }
 
 /*For left-column on homepage*/
-#left-column{
-float: left;
-width: 50%;
+#left-column-homepage{
+float: none;
+width: 100%;
 background-color:#F2E9D8;
-height:500px;
+height:auto;
 margin: 0px;
-padding: 0px;
+padding: 10px;
 }
 
 /*For image on homepage*/
@@ -95,7 +101,6 @@ float: left;
 width: 100%;
 max-width: 100%;
 height: auto;
-margin-left: 0%;
 }
 
 /* To clear out all right and left columns before the footer */
@@ -108,16 +113,17 @@ clear: both;
 #footer
 {
 background-color: #D9A577;
-height:40px;
+width: auto;
+height: auto;
+min-height: 40px;
 margin: 5px;
 padding: 10px;
 text-align: center;
-
 font-family: "Aleo", serif;
 font-optical-sizing: auto;
-font-weight:400;
-font-size: 20px;
-
+font-weight: 400;
+font-size: 16px;
+box-sizing: border-box;
 }
 
 /*Box layout on projects page*/
