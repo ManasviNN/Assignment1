@@ -149,7 +149,7 @@ border:5px solid hsl(28, 47%, 37%);
 
 /* Used to add linear gradient to project page */
 #projectpage{
-min-height: 700px;
+min-height: 1200px;
 background:linear-gradient(to bottom, #F2E1BD 0%, #D9B8AC 50%, #A65A58 100%);
 }
 

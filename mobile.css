@@ -92,9 +92,10 @@ padding: 0px;
 /*For image on homepage*/
 figure img{
 float: left;
-width: 530px;
-height: 450px;
-margin-left: 15%;
+width: 100%;
+max-width: 100%;
+height: auto;
+margin-left: 0%;
 }
 
 /* To clear out all right and left columns before the footer */
@@ -123,7 +124,7 @@ font-size: 20px;
 .box{
 background-color: #D9A577;
 width: 60%;
-height: 300px; 
+height: 500px; 
 float: left;
 
 text-align: center;
@@ -137,7 +138,7 @@ border:5px solid hsl(28, 47%, 37%);
 
 /* Used to add linear gradient to project page */
 #projectpage{
-min-height: 700px;
+min-height: 3000px;
 background:linear-gradient(to bottom, #F2E1BD 0%, #D9B8AC 50%, #A65A58 100%);
 }
 
