@@ -15,6 +15,11 @@ Web Browser: Any modern browser (Google Chrome, Mozilla Firefox, Microsoft Edge,
 If you would like to create your own website, you will need a text editor. 
 
 Page Breakdown: 
+Dimensions Used: 
+Mobile: (max-width: 480px)
+Tablet: (min-width: 481px) and (max-width: 960px)
+Computer: (min-width: 961px)
+
 Homepage: 
 This page includes a navigation bar that takes you to all other pages on the Website. 
 Elements Included:
