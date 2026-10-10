@@ -1,9 +1,12 @@
 /* CSS */
 @charset "UTF-8";
+
+/* Universal selector to ensure that all elements stay within the limits */
 *{
     box-sizing: border-box;
 }
-/* General body font for the background */
+
+/* General body font and colour for the background */
 body{
     background-color:#F2E9D8;
     font-family: Verdana, Geneva, Arial, sans-serif;

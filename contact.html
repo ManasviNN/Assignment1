@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <!--Stylesheets listed for all different view points (mobile, tablet, laptop)-->
     <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 480px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 481px) and (max-width: 960px)">
     <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 961px)">
-
+    <!--Fonts embedded from Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">  
@@ -18,7 +19,7 @@
          <header>
             <h1>Manasvi's Portfolio</h1>
             <nav>
-               
+                   <!--Navigation links to all other pages in the portfolio-->
                     <a href="homepage.html" class="active">Home</a>
                     <a href="blog.html">About Me</a>
                     <a href="projects.html">Projects</a>
@@ -27,12 +28,14 @@
             </nav>
         </header>
 
+        <!--Creating the form to contact me-->
             <form 
             action="mailto:manasvi.naik@ontariotechu.net"
             method="post" 
             enctype="text/plain" 
             name="contant_form">
             <h1>Contact Us</h1>
+            <!--Add sections for first name, last name, email, number, and message-->
                 <p>
                     <label for="first_name">First Name:</label><br>
                     <input type = "text" id="first_name" size="32" required>
@@ -54,13 +57,17 @@
                     <label for="message">Message:</label><br>
                     <textarea name = "message" cols="60" rows="6"></textarea> 
                 </p>
+                <!--Reset and Submit Button-->
+
                 <input type="reset" value="Reset">
                 <input type="submit" value="Submit">
             </form>
 
     
-           
+    <!--Clear class to remote all float css-->
+    <div class="clear"></div>
 
+    <!--Footer with name, email, and copyright-->
     <div id="footer">
         <h5>© Manasvi Naik - manasvi.naik@ontariotechu.net</h5>
     </div>

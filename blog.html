@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <!--Stylesheets listed for all different view points (mobile, tablet, laptop)-->
     <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 480px)">
     <link rel="stylesheet" href="tablet.css" media="screen and (min-width: 481px) and (max-width: 960px)">
     <link rel="stylesheet" href="laptop.css" media="screen and (min-width: 961px)">
-
+    <!--Fonts embedded from Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">  
@@ -17,6 +18,7 @@
      <header>
             <h1>Manasvi's Portfolio</h1>
             <nav>
+                   <!--Navigation links to all other pages in the portfolio-->
                     <a href="homepage.html" class="active">Home</a>
                     <a href="blog.html">About Me</a>
                     <a href="projects.html">Projects</a>
@@ -24,15 +26,18 @@
             </nav>
         </header>
    
+    <!--For the About Me video which includes the poster-->
      <div id="left-column-aboutme">
         <video controls preload="auto" poster="aboutmeposter.png" id="AboutMeVid">
             <source src="AboutMeVideo.mp4" type="video/mp4">
         </video>
         
         <br>
+    <!--Button for play and Pause which uses the JavaScript code-->
         <button onclick="playPause()">Play or Pause the Video</button>
     </div>
 
+    <!--Small description with my technical skills-->
     <div id="right-column-aboutme">
         <h2>About Me!</h2>
         <p>Second-Year Cybersecurity student seeking 2027 Summer Internships.</p>
@@ -42,11 +47,15 @@
 
     </div>
 
+    <!--Clear class to remote all float css-->
     <div class="clear"></div>
+
+    <!--Footer with name, email, and copyright-->
     <div id="footer">
         <h5>© Manasvi Naik - manasvi.naik@ontariotechu.net</h5>
     </div>
 
+    <!--JavaScript code for the playPause function-->
     <script>
         var AboutMeVid =document.getElementById("AboutMeVid");
         function playPause(){
